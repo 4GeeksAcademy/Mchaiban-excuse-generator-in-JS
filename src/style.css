@@ -1,5 +1,16 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
+body {
     background: white;
-}
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+  }
+  
+  h1, p {
+    margin: 10px 0;
+  }
