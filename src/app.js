@@ -5,10 +5,10 @@ import "./style.css";
 import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
-let who = ['The panda', 'My mom', 'The musician', 'My friend'];
-let action = ['wrote', 'crushed', 'hacked', 'broke'];
-let what = ['my homework', 'my phone', 'the car', 'my dreams'];
-let when = ['before the earthquake', 'when I was contemplating life', 'while I was eating an ice-cream', 'during my lunch', 'while I was watching YouTube'];
+const who = ['The panda', 'My mom', 'The musician', 'My friend'];
+const action = ['wrote', 'crushed', 'hacked', 'broke'];
+const what = ['my homework', 'my phone', 'the car', 'my dreams'];
+const when = ['before the earthquake', 'when I was contemplating life', 'while I was eating an ice-cream', 'during my lunch', 'while I was watching YouTube'];
 
 function getRandomNumber (min,max) {
    return Math.floor(Math.random() * (max-min) + min)
